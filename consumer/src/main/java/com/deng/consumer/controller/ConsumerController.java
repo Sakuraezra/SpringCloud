@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
  * @ author ezra
  * @ date 2019/3/12 14:32
  */
+
 @RestController
 public class ConsumerController {
 
@@ -19,4 +20,8 @@ public class ConsumerController {
 	public String index(@PathVariable("name") String name) {
 		return helloRemote.hello(name);
 	}
+
+
 }
+
+

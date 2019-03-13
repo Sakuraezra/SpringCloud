@@ -6,6 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
+/**
+ *
+ * create for 负载均衡 = =!
+ */
 public class ProdecerTwoApplication {
 
 	public static void main(String[] args) {
